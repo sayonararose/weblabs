@@ -21,6 +21,15 @@
     align-items: center;
     margin-bottom: 20px;
   }
+  .student-info div {
+    flex: 1; /* Займає весь доступний простір */
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .student-info h4 {
+    text-align: center; 
+  }
   
   .student-info img {
     width: 200px;
