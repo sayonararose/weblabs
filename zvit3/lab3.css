@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    padding: 15px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .student-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .student-info div {
+    flex: 1; /* Займає весь доступний простір */
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .student-info h4 {
+    text-align: center; 
+  }
+  .student-info img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #000000;
+  }
+  
+.sec-but{
+    text-align:center;
+}
+button{
+    color:#000000;
+    padding: 20px;
+    margin: 2px;
+    background-color: #ecd0f5;
+    border: 0px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.format-1{
+    background-color: #ecd0f5;
+    font-size: 18px;
+    width: 400px;
+    height: 75px;
+}
+.but-st{
+    background-color: #e186ff;
+    color:#000000;
+    font-size: 18px;
+    width: 400px;
+    height: 75px;
+}
+.format-2{
+    color:#000000;
+    background-color: #ecd0f5;
+    font-size: 16px;
+    padding: 15px;
+    width: 325px;
+    margin-left: 75px;
+
+}
+.desc{
+    text-align: right;
+    margin-top: -700px;
+    margin-right: 200px;
+}
+.desc img {
+    width: 900px;
+    height: auto;
+}
+
+.desc{
+    text-align: left;
+    /* font-weight: bold; */
+    padding-left: 450px;
+}
+h1{
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
