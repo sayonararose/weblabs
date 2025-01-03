@@ -30,7 +30,6 @@
   .student-info h4 {
     text-align: center; 
   }
-  
   .student-info img {
     width: 200px;
     height: auto;
@@ -58,11 +57,12 @@ button{
     height: 75px;
 }
 .but-st{
-    background-color: #ecd0f5;
+    background-color: #e186ff;
     color:#000000;
     font-size: 18px;
     width: 400px;
     height: 75px;
+
 }
 .format-2{
     color:#000000;
@@ -75,16 +75,19 @@ button{
 }
 .desc{
     text-align: right;
-    margin-top: -450px;
+    margin-top: -550px;
     margin-right: 200px;
 }
-
 .img {
   overflow: clip;
 }
 
 
 .desc{
-    text-align: center;
+    text-align: left;
     font-weight: bold;
+    padding-left: 450px;
+}
+h2{
+  font-weight: bold;
 }
